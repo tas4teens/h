@@ -1,0 +1,386 @@
+#title{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: 0;
+}
+
+#searchBoxHolder{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+#searchBox{
+    border: 2px solid darkgreen;
+    font-size: 125%;
+    width: 62%;
+}
+
+#searchButton{
+    font-size: 125%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: white;
+    background-color: darkgreen;
+    margin-top: 0;
+    margin-bottom: 0;
+    -webkit-user-select: none;
+    transition: 0.5s;
+}
+
+#searchButton:hover{
+    cursor: pointer;
+    background-color: seagreen;
+    transition: 0.5s;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.subTitle{
+    font-size: 200%;
+    opacity: 0.85;
+    margin-left: 15%;
+    border-left: 4px solid darkgreen;
+    border-bottom: 4px solid darkgreen;
+    padding-left: 1.5%;
+    font-weight: bold;
+    color: darkgreen;
+    padding-right: 1.5%;
+    width: 27%;
+    color: darkgreen;
+    margin-top: 5%;
+
+}
+
+.link{
+    color: black;
+}
+
+#recommendedLink{
+    display: inline-block;
+    font-size: 175%;
+    color: darkgreen;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sudDescription{
+    font-size: 125%;
+    opacity: 0.9;
+}
+
+#sudHolder{
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+}
+
+#sudContent{
+    z-index: 2;
+}
+
+#sudTime{
+    font-size: 110%;
+    opacity: 0.8;
+}
+
+#sudTime::after{
+    content: "Highly Recommended";
+    background-color: #fcba03;
+    color: white;
+    padding: 0.4%;
+    font-weight: bold;
+}
+
+.subSubTitle{
+    font-size: 145%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ul{
+    color: black;
+    list-style-type: square;
+}
+
+.bullet{
+    height: 15px;
+    width: 15px;
+    border: 2px solid green;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+}
+
+.linkHolder{
+    display: flex;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 15%;
+}
+
+.textHolder{
+    display: flex;
+    margin-left: 15%;
+    margin-top: -1%;
+    margin-bottom: -1%;
+    margin-right: 15%;
+}
+
+
+.bulletLink{
+    display: inline-block;
+
+    font-size: 150%;
+    color: green;
+    font-weight: bold;
+    
+}
+
+.bulletText{
+    font-size: 145%;
+    max-width: 90%;
+    font-weight: bold;
+}
+
+#backToHome{
+    display: inline-block;
+    font-size: 145%;
+    color: black;
+    text-align: center;
+    padding: 2%;
+    border: 2px solid green;
+    border-radius: 10px;
+    width: 12%;
+    color: green;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 42%;
+    margin-right: 42%;
+    transition: 0.5s;
+}
+
+#backToHome:hover{
+    background-color: gray;
+    color: white;
+    border: 2px solid darkgreen;
+    transition: 0.5s;
+}
+
+.titleLink{
+    font-weight: bold;
+    color: #008000;
+    font-size: 150%;
+    
+}
+
+
+.indivArticleHolder{
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #e0e0e0;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 0.75%;
+    margin-top: 1.5%;
+   
+}
+
+.keyWordText{
+    font-size: 115%;
+    
+}
+
+.indivKeyWord{
+    text-decoration: none;
+    font-weight: lighter;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+    padding-left: 0.4%;
+    padding-right: 0.4%;
+    background-color: #00b333;
+    color: white;
+    font-size: 90%;
+    margin-left: 1%;
+    margin-bottom: 0;
+    -webkit-user-select: none;
+}
+
+.description{
+    font-size: 127%;
+    margin-top: 2%;
+}
+
+#searchResults{
+    font-size: 145%;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#innerSearchResult1{
+    font-weight: bold;
+    color: green;
+}
+
+#innerSearchResult2{
+    font-style: italic;
+    color: green;
+}
+
+#resultsFlex{
+    margin-left: 15%;
+    display: flex;
+}
+
+#clearSearch, #explanation{
+    font-size: 125%;
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    margin-top: -1%;
+    margin-bottom: 1.5%;
+    -webkit-user-select: none;
+}
+
+#clearSearch:hover{
+    cursor: pointer;
+}
+
+#explanation:hover{
+    cursor: pointer;
+}
+
+#explanation{
+    margin-left: 3%;
+}
+
+#explanationRevealed{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 110%;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+@media only screen and (orientation: portrait){
+    #title{
+        margin-top: 7%;
+        margin-bottom: 8.5%;
+        /*text-decoration: underline;*/
+        font-size: 7.5vw;
+    }
+
+    #searchBox{
+        font-size: 5vw;
+    }
+
+    #searchButton{
+        font-size: 5vw;
+    }
+
+    #content{
+        margin-top: 10%;
+    }
+
+    .subTitle{
+        font-size: 6vw;
+        margin-left: 10%;
+        width: 75%;
+        border-left: 3px solid darkgreen;
+        border-bottom: 3px solid darkgreen;
+        margin-top: 5%;
+    }
+
+    #recommendedLink{
+        font-size:5.25vw;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    #sudDescription{
+        font-size: 4.5vw;
+    }
+
+    #sudHolder{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        margin-bottom: 15%;
+    }
+
+    .subSubTitle{
+        font-size: 4.25vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .linkHolder{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+
+    .bulletLink{
+        max-width: 85%;
+        font-size: 4.5vw;
+    }
+
+    .bullet{
+        height: 7px;
+        width: 7px;
+        border: 2px solid green;
+        margin-left: 2%;
+        margin-right: 4%;
+    }
+
+    .bulletText{
+        max-width: 85%;
+        font-size: 4.5vw;
+    }
+
+    .textHolder{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        margin-top: -3%;
+        margin-bottom: -3%;
+    }
+
+    #backToHome{
+        width: 40%;
+        margin-left: 28%;
+        margin-right: 28%;
+        font-size: 4.5vw;
+        margin-bottom: 10%;
+    }
+
+    #references{
+        margin-left: 0;
+        text-align: center;
+        font-size: 5.5vw;
+        font-weight: bold;
+    }
+    
+    .referenceLink{
+        color: green;
+    }
+    
+    .referenceText{
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+        font-size: 3.7vw;
+        word-wrap: break-word;
+    }
+    
+}
