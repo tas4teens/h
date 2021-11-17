@@ -26,12 +26,87 @@ var listOfFirstDrugs = [
 
 {Drug: 'Cocaine', Stat: [['12th grade', 4.1, 2.9, 0.8, 'No data available'], ['10th grade', 1.6, 1.1, 0.4, 'No data available'], ['8th grade', 1.6, 0.5, 0.1, 'No data available']], color: 'brown'}];
 
-function drawFirstGraph(maxStat, increment, row, col){
+var listOfInitiation = [{drug: 'Alcohol', stat: 2300000, color: 'orange', display: '2,300,000 (46.9%; 6,200 per day)'},
+{drug: 'Marijuana', stat: 1400000, color: 'purple', display: '1,400,000 (40%; 3,700 per day)'},
+{drug: 'Marijuana', stat: 699000, color: 'green', display: '699,000'},
+{drug: 'Alcohol', stat: 414000, color: 'crimson', display: '414,000'}, 
+{drug: 'Prescription sedatives', stat: 96000, color: 'blue', display: '96,000'},
+{drug: 'Prescription painkillers', stat: 87000, color: 'cornflowerblue', display: '87,000'},
+{drug: 'Opioids', stat: 87000, color: '#8f8786', display: '87,000'},
+{drug: 'Prescription stimulants', stat: 66000, color: '#eb7d34', display: '60,000'},
+{drug: 'Cocaine', stat: 5000, color: 'black', display: '5,000'}];
+
+var listOfSUD = [{drug: 'Any SUD*', stat: 1100000, color: 'orange', display: '1,100,000'},
+{drug: 'Illicit drugs', stat: 894000, color: 'purple', display: '894,000'},
+{drug: 'Marijuana', stat: 699000, color: 'green', display: '699,000'},
+{drug: 'Alcohol', stat: 414000, color: 'crimson', display: '414,000'}, 
+{drug: 'Prescription sedatives', stat: 96000, color: 'blue', display: '96,000'},
+{drug: 'Prescription painkillers', stat: 87000, color: 'cornflowerblue', display: '87,000'},
+{drug: 'Opioids', stat: 87000, color: '#8f8786', display: '87,000'},
+{drug: 'Prescription stimulants', stat: 66000, color: '#eb7d34', display: '60,000'},
+{drug: 'Cocaine', stat: 5000, color: 'black', display: '5,000'}];
+
+function drawNormalGraph(max, incr, destination, source){
+    for(var i = 0; i<source.length; i++){
+        var newCont = document.createElement('div');
+        newCont.className = 'container';
+        document.getElementsByClassName('graph')[destination].appendChild(newCont);
+    }
+
+    for(var i = 0; i<source.length; i++){
+        var drugName = document.createElement('section');
+        drugName.className = 'graphText';
+        drugName.innerHTML = source[i].drug;
+        document.getElementsByClassName('graph')[destination].getElementsByClassName('container')[i].appendChild(drugName);
+    }
+
+    for(var i = 0; i<source.length; i++){
+        var bar = document.createElement('div');
+        bar.className = 'graphBars';
+        document.getElementsByClassName('graph')[destination].getElementsByClassName('container')[i].appendChild(bar);
+    }
+
+    for(var i = 0; i<source.length; i++){
+
+        var drugStat = document.getElementsByClassName('graph')[destination].getElementsByClassName('graphBars')[i];
+        var drugStatWidth = ((source[i].stat/max) * 65) - 1.5;
+        drugStat.style.width = drugStatWidth + '%';
+        if (drugStatWidth > 6){
+            drugStat.innerHTML = source[i].display;
+        }else{
+            var outsideText = document.createElement('p');
+            outsideText.className = 'outsideText';
+            outsideText.innerHTML = source[i].display;
+            document.getElementsByClassName('graph')[destination].getElementsByClassName('container')[i].appendChild(outsideText);
+        }
+            
+        drugStat.style.backgroundColor = source[i].color;
+        
+    }
+    
+    var line = document.createElement('div');
+    line.id = 'graphScale1';
+    document.getElementsByClassName('graph')[destination].appendChild(line);
+    
+    for(var i = 0; i< (max/incr); i++){
+        var percentages = document.createElement('div');
+        percentages.className = 'percentDiv';
+        percentages.innerHTML = (i*incr);
+        document.getElementById('graphScale1').appendChild(percentages);
+    }
+
+    for(var i = 0; i< (max/incr); i++){
+        document.getElementsByClassName('graph')[destination].getElementsByClassName('percentDiv')[i].style.width = (100 / (max/incr)) + '%';
+        document.getElementsByClassName('graph')[destination].getElementsByClassName('percentDiv')[i].style.maxWidth = (100 / (max/incr)) + '%';
+    }
+}
+
+function drawFirstGraph(maxStat, increment, row, col, destination){
     trimmed = [];
         for(var i = 0; i<listOfFirstDrugs.length; i++){
             var newCont = document.createElement('div');
             newCont.className = 'container';
-            document.getElementById('graph1').appendChild(newCont);
+            document.getElementsByClassName('graph')[destination].appendChild(newCont);
         }
     
         for(var i = 0; i<listOfFirstDrugs.length; i++){
@@ -72,7 +147,7 @@ function drawFirstGraph(maxStat, increment, row, col){
         
         var line = document.createElement('div');
         line.id = 'graphScale';
-        document.getElementById('graph1').appendChild(line);
+        document.getElementsByClassName('graph')[destination].appendChild(line);
         
         for(var i = 0; i< (maxStat/increment); i++){
             var percentages = document.createElement('div');
@@ -255,7 +330,7 @@ function changeGradeGraph(){
     
     var temp = listofgrades.indexOf(document.getElementsByClassName('grade')[0].innerHTML);
     var temp1 = listofprevalences.indexOf(g.innerHTML)
-    drawFirstGraph(scale[temp][temp1][0], scale[temp][temp1][1], temp, temp1);
+    drawFirstGraph(scale[temp][temp1][0], scale[temp][temp1][1], temp, temp1, 0);
 }
 
 function changePrevalenceGraph(){
@@ -276,10 +351,12 @@ function changePrevalenceGraph(){
 
     var temp = listofgrades.indexOf(g.innerHTML);
     var temp1 = listofprevalences.indexOf(document.getElementsByClassName('prevalenceOfUse')[0].innerHTML);
-    drawFirstGraph(scale[temp][temp1][0], scale[temp][temp1][1], temp, temp1);
+    drawFirstGraph(scale[temp][temp1][0], scale[temp][temp1][1], temp, temp1, 0);
 }
 
-drawFirstGraph(65, 13, 0, 1);
+drawFirstGraph(65, 13, 0, 1, 0);
+drawNormalGraph(1200000, 300000, 2, listOfSUD);
+drawNormalGraph(2500000, 500000, 1, listOfInitiation);
 
 createDropDowns();
 
