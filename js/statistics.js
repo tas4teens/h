@@ -26,27 +26,34 @@ var listOfFirstDrugs = [
 
 {Drug: 'Cocaine', Stat: [['12th grade', 4.1, 2.9, 0.8, 'No data available'], ['10th grade', 1.6, 1.1, 0.4, 'No data available'], ['8th grade', 1.6, 0.5, 0.1, 'No data available']], color: 'brown'}];
 
-var listOfInitiation = [{drug: 'Alcohol', stat: 2300000, color: 'orange', display: '2,300,000 (46.9%; 6,200 per day)'},
-{drug: 'Marijuana', stat: 1400000, color: 'purple', display: '1,400,000 (40%; 3,700 per day)'},
-{drug: 'Marijuana', stat: 699000, color: 'green', display: '699,000'},
-{drug: 'Alcohol', stat: 414000, color: 'crimson', display: '414,000'}, 
-{drug: 'Prescription sedatives', stat: 96000, color: 'blue', display: '96,000'},
-{drug: 'Prescription painkillers', stat: 87000, color: 'cornflowerblue', display: '87,000'},
-{drug: 'Opioids', stat: 87000, color: '#8f8786', display: '87,000'},
-{drug: 'Prescription stimulants', stat: 66000, color: '#eb7d34', display: '60,000'},
-{drug: 'Cocaine', stat: 5000, color: 'black', display: '5,000'}];
+var listOfUse = [{drug: 'Illicit drugs', stat: 4300000, color: 'purple', display: '4,300,000'},
+{drug: 'Marijuana', stat: 3300000, color: 'green', display: '3,300,000'},
+{drug: 'Alcohol', stat: 2300000, color: '#715bd4', display: '2,300,000'},
+{drug: 'Cocaine', stat: 778000, color: 'crimson', display: '778,000'}, 
+{drug: 'Inhalants', stat: 743000, color: 'grey', display: '743,000'},
+{drug: 'Cigarettes*', stat: 572000, color: 'black', display: '572,000'},
+{drug: 'Painkillers', stat: 567000, color: 'cornflowerblue', display: '567,000'}];
+
+var listOfInitiation = [{drug: 'Alcohol', stat: 2300000, color: '#715bd4', display: '2,300,000 (46.9%)'},
+{drug: 'Marijuana', stat: 1400000, color: 'green', display: '1,400,000 (40%)'},
+{drug: 'Cigarettes', stat: 541000, color: 'purple', display: '699,000 (33.8%)'},
+{drug: 'Inhalants', stat: 381000, color: 'crimson', display: '381,000 (52.2%)'}, 
+{drug: 'Prescription painkillers', stat: 245000, color: 'grey', display: '245,000 (15.3%)'},
+{drug: 'Prescription stimulants', stat: 238000, color: 'blue', display: '238,000 (26.4%)'},
+{drug: 'Prescription sedatives', stat: 185000, color: 'cornflowerblue', display: '185,000 (19.5%)'}, 
+{drug: 'Cocaine', stat: 59000, color: 'brown', display: '59,000 (8.8%)'}];
 
 var listOfSUD = [{drug: 'Any SUD*', stat: 1100000, color: 'orange', display: '1,100,000'},
 {drug: 'Illicit drugs', stat: 894000, color: 'purple', display: '894,000'},
 {drug: 'Marijuana', stat: 699000, color: 'green', display: '699,000'},
-{drug: 'Alcohol', stat: 414000, color: 'crimson', display: '414,000'}, 
+{drug: 'Alcohol', stat: 414000, color: '#715bd4', display: '414,000'}, 
 {drug: 'Prescription sedatives', stat: 96000, color: 'blue', display: '96,000'},
 {drug: 'Prescription painkillers', stat: 87000, color: 'cornflowerblue', display: '87,000'},
 {drug: 'Opioids', stat: 87000, color: '#8f8786', display: '87,000'},
 {drug: 'Prescription stimulants', stat: 66000, color: '#eb7d34', display: '60,000'},
 {drug: 'Cocaine', stat: 5000, color: 'black', display: '5,000'}];
 
-function drawNormalGraph(max, incr, destination, source){
+function drawNormalGraph(max, incr, destination, source, hold){
     for(var i = 0; i<source.length; i++){
         var newCont = document.createElement('div');
         newCont.className = 'container';
@@ -71,7 +78,7 @@ function drawNormalGraph(max, incr, destination, source){
         var drugStat = document.getElementsByClassName('graph')[destination].getElementsByClassName('graphBars')[i];
         var drugStatWidth = ((source[i].stat/max) * 65) - 1.5;
         drugStat.style.width = drugStatWidth + '%';
-        if (drugStatWidth > 6){
+        if (drugStatWidth > hold){
             drugStat.innerHTML = source[i].display;
         }else{
             var outsideText = document.createElement('p');
@@ -355,8 +362,9 @@ function changePrevalenceGraph(){
 }
 
 drawFirstGraph(65, 13, 0, 1, 0);
-drawNormalGraph(1200000, 300000, 2, listOfSUD);
-drawNormalGraph(2500000, 500000, 1, listOfInitiation);
+drawNormalGraph(1200000, 300000, 3, listOfSUD, 6);
+drawNormalGraph(2500000, 500000, 2, listOfInitiation, 13);
+drawNormalGraph(4500000, 900000, 1, listOfUse, 6);
 
 createDropDowns();
 

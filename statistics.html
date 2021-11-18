@@ -15,6 +15,9 @@
 <!--Newsreader/serif font--> <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+<!--Open sans--><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <div id = 'emergencyHeader'>
@@ -78,8 +81,19 @@
    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
 
    <p id = 'title'>Statistics </p>
+   <div id = 'onThisPage'>
+    <p id = 'onThisPageText'>On This Page</p>
+    <a href="#definitions" class = 'navigationLink'>Key terms on this page</a>
+    <a href="#statistics" class = 'navigationLink'>Prevalence of use of selected substances among 8th, 10th, and 12th graders (Interactive)</a>
+    <a href="#usage" class = 'navigationLink'>Number of adolescents (ages 12-17) that used a certain substance in the past year</a>
+    <a href="#initiation" class = 'navigationLink'>Number of adolescents (ages 12-17) that <i>started</i> to use a substance in the past year</a>
+    <a href="#sud" class = 'navigationLink'>Number of adolescents (ages 12-17) struggling with past-year SUD</a>
+    </div>
+   <div id = 'content'>
+
 
     <section id = 'statistics'>
+        
         <p class = 'graphTitle'>Prevalence of use in the past year of selected substances among 12th graders, 2020</p>
         <p class = 'graphSubTitle'>*Prevalence of use: The proportion of the population who has used a particular substance in a certain period. For example, if alcohol's prevalence of use within the past year is 40%, it means 40% of people used alcohol at least once in the past year.</p>
         <p class = 'graphSubTitle'>The graph is interactive! Select a grade level and a duration for prevalence of use. If a substance did not show up, no data is available for that substance. (Source: <a href="https://www.drugabuse.gov/drug-topics/trends-statistics/monitoring-future/monitoring-future-study-trends-in-prevalence-various-drugs" target = '_blank' class = 'citations'>Monitoring The Future</a>)</p>
@@ -102,16 +116,25 @@
         </div>
     </section>
 
+    <div class = 'line'></div>
+
+    <section id = 'usage'>
+        <p class = 'graphTitle'>Number of adolescents (ages 12-17) that used a certain substance in the past year</p>
+        <div class = 'graph'></div>
+    </section>
+    <div class = 'line'></div>
     <section id = 'initiation'>
-        <p class = 'graphTitle'>Number of adolescents that started to use a substance in the past year</p>
+        <p class = 'graphTitle'>Number of adolescents (ages 12-17) that <i>started</i> to use a substance in the past year</p>
         <div class = 'graph'></div>
-    </div>
-
-
+    </section>
+    <div class = 'line'></div>
     <section id = 'sud'>
-        <p class = 'graphTitle'>Number of adolescents struggling with past-year SUD</p>
+        <p class = 'graphTitle'>Number of adolescents (ages 12-17) struggling with past-year SUD</p>
         <div class = 'graph'></div>
-    </div>
+    </section>
+
+   </div>
+    
 
    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
    <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->

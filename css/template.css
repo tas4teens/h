@@ -21,13 +21,13 @@ html{
     margin-top: 0;
     display: flex;
     -webkit-user-select: none;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-bottom: 0;
     
 }
 
 body{
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 101%;
     margin-left: -0.5%;
     margin-right: -1%;
