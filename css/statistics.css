@@ -248,3 +248,28 @@ hr{
    font-weight: bold;
    margin-top: 0;
 }
+
+.textHolder{
+   display: flex;
+   margin-left: 12%;
+   margin-top: -1%;
+   margin-bottom: -1%;
+   margin-right: 12%;
+}
+
+
+.bulletText{
+   font-size: 145%;
+   max-width: 90%;
+}
+
+.bullet{
+   height: 15px;
+   width: 15px;
+   border: 2px solid green;
+   margin-left: 3%;
+   margin-right: 3%;
+   margin-top: auto;
+   margin-bottom: auto;
+   border-radius: 50%;
+}

@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 #title, #allSubstances{
     font-size: 2.75vw;
     text-align: center;

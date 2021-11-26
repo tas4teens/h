@@ -18,7 +18,7 @@ function showMoreStats(){
     var link = document.createElement('a');
     link.id = 'addedLink';
     var insideLink = document.createTextNode('Want to see even more stats? Check out the Statistics page.');
-    link.setAttribute('href', '/stats');
+    link.setAttribute('href', 'statistics.html');
     link.setAttribute('target', '_blank');
     link.appendChild(insideLink);
     document.getElementById('seeMoreStats').appendChild(link);
