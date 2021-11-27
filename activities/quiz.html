@@ -1,0 +1,203 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage | Tas4Teens</title>
+    <link rel="stylesheet" href="css/template.css">
+    <link rel="stylesheet" href="css/quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+<!--Newsreader/serif font--> <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&display=swap" rel="stylesheet">
+<!--Open sans font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id = 'emergencyHeader'>
+        <p id = 'emergency'>
+            Need help? National Hotline: 📞 <a href="tel://+18006624357" id = 'call'>1-800-662-4357</a>
+        </p>
+        <p id = 'close'>✖</p>
+       
+    </div>
+
+    <div id = 'emergencyMobileHeader'>
+        <p id = 'emergencyMobile'>
+            Need help? National Hotline: <a href="tel://+18006624357" id = 'call'>1-800-662-4357</a>
+        </p>
+        <p id = 'closeMobile'>✖</p>
+    </div>
+
+    <div id = 'header'>
+        <div id = 'headerLinkHolder'>
+            <a href="/" id = 'headerLink'>
+                <p id = 'headerLinkMain'>Tas4Teens</p>
+                <p id = 'headerLinkSub'>the <b>T</b>ruth <b>A</b>bout <b>S</b>ubstances, for <b>Teens</b>.</p>
+            </a>
+        </div>
+        <div id = 'topLinks'>
+            <a href="about.html" class = 'topIndividualLinkHolder'>
+                <p class = 'topIndividualLink'>About</p>
+            </a>
+            <a href="statistics.html" class = 'topIndividualLinkHolder'>
+                <p class = 'topIndividualLink'>Statistics</p>
+            </a>
+            <a href="explore.html" class = 'topIndividualLinkHolder'>
+                <p class = 'topIndividualLink'>Explore</p>
+            </a>
+        </div>
+    </div>
+
+    <div id = 'mobileHeader'>
+        <p id = 'menu'>☰</p>
+        <div id = 'headerLinkHolderMobile'>
+            <a href="/" id = 'headerLinkMobile'>
+                <p id = 'headerLinkMainMobile'>Tas4Teens</p>
+                <p id = 'headerLinkSubMobile'>the <b>T</b>ruth <b>A</b>bout <b>S</b>ubstances, for <b>Teens</b>.</p>
+            </a>
+        </div>
+    </div>
+
+    <div id = 'mobileNavigation'>
+        <a href="about.html" class = 'topIndividualLinkHolder'>
+            <p class = 'topIndividualLink'>About</p>
+        </a>
+        <a href="statistics.html" class = 'topIndividualLinkHolder'>
+            <p class = 'topIndividualLink'>Statistics</p>
+        </a>
+        <a href="explore.html" class = 'topIndividualLinkHolder'>
+            <p class = 'topIndividualLink'>Explore</p>
+        </a>
+    </div>
+
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <!--PREGAME CODE-->
+    <div id = 'pregame'>
+        <a href="main.html"> Back to main menu</a><!--The href attribute would change depending on what the design team titles their main page.-->
+        <p id = 'title'>Quiz: choose a difficulty!</p>
+        <p id = 'subtitle'>A quiz of 5 random questions from the chosen difficulty would be generated. Your final score at the end would depend on your accuracy, win streak, and time spent per question.</p>
+
+        <div class = 'quizChoice'>Easy</div>
+        <div class = 'quizChoice'>Medium</div>
+        <div class = 'quizChoice'>Difficult</div>
+        <div class = 'quizChoice'>All difficulties</div>
+
+
+        <div id = 'timeHolder'>
+            <p id = 'timeLimit'>Time limit per question:</p>
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>5 seconds</p>
+            </div>
+
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>10 seconds</p>
+            </div>
+
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>15 seconds</p>
+            </div>
+    
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>25 seconds</p>
+            </div>
+    
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>45 seconds</p>
+            </div>
+
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>60 seconds</p>
+            </div>
+    
+            <div class = 'choiceHolder'>
+                <div class = 'choiceSelection'></div>
+                <p class = 'choiceContent'>No time limit</p>
+            </div>
+
+            
+        </div>
+        <div id = 'getStarted'>Get Started</div>
+    </div>
+
+    <div id = 'ingame'><!--INGAME CODE-->
+        <div id = 'navigation'>
+            <p id = 'navigationMainText'>Quiz in progress: Test</p>
+            <div id = 'subNavigation'>
+                <!--<p class = 'indivSubNavigation'>Disable visual timer</p>-->
+                <p class = 'indivSubNavigation'>Exit Quiz</p>
+            </div>
+        </div>
+        <div id = 'visualTimer'></div>
+        <div id = 'entireQuiz'>
+            <div id = 'leftArrow'>
+                <div id = 'childLeft'></div>
+            </div>
+            <div id = 'quizContent'>
+            </div>
+            <div id = 'rightArrow'>
+                <div id = 'childRight'>></div>
+            </div>
+        </div>
+    </div>
+
+    <div id = 'postgame'><!--POSTGAME CODE-->
+        <p id = 'bigResult'>Congratulations, you got <span id = 'numCorrect'></span> of 5 questions correct!</p>
+        <p id = 'scoreDisplay'>Your score is: 69420</p>
+        <div id = 'endLinksHolder'>
+            <!--<p class = 'indivEndLink'>Go over questions</p>-->
+            <p class = 'indivEndLink'>Exit quiz</p>
+        </div>
+        <div id = 'scoreBreakdown'>A quick score breakdown:</div>
+        <div class = 'scoreBreakdownDetail'></div>
+        <div class = 'scoreBreakdownDetail'></div>
+    </div>
+
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+   <!--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+    <div id = 'footer'>
+        <div id = 'bottomHeaderLinkHolder'>
+            <a href="/" id = 'bottomHeaderLink'>
+                <p id = 'bottomHeaderLinkMain'>Tas4Teens</p>
+                <p id = 'bottomHeaderLinkSub'>the <b>T</b>ruth <b>A</b>bout <b>S</b>ubstances, for <b>Teens</b>.</p>
+            </a>
+        </div>
+        <p id = 'footerMissionStatement'>Tas4Teens is a website designed to raise awareness about adolescent substance use. <a href="/about">Learn more.</a></p>
+        <div id = 'bottomNavigationLinkHolders'>
+            <div id = 'contactDiv'>
+                <p id = 'contact'>Contact</p>
+                <p id = 'contactInfo'>Any questions or comments? Please contact me at any of the following below.</p>
+                <a href="malito:mchlcape808@gmail.com" class = 'bottomQuickLinks'>Email (mchlcape808@gmail.com)</a><br>
+                <a href="https://www.instagram.com/tas4teens/" class = 'bottomQuickLinks'>Instagram (Temporary; @tas4teens)</a>
+            </div>
+            <div id = 'quickLinksDiv'>
+                <p id = 'quickLinks'>Quick Links</p>
+                <a href="about.html" class = 'bottomQuickLinks'>About this website ▸</a><br>
+                <a href="sud.html" class = 'bottomQuickLinks'>Substance use in adolescents - what every adolescent should know ▸</a><br>
+                <a href="substances.html" class = 'bottomQuickLinks'>Read all about different kinds of substances ▸</a><br>
+                <a href="activities.html" class = 'bottomQuickLinks'>Activities ▸</a><br>
+                <a href="statistics.html" class = 'bottomQuickLinks'>Statistics ▸</a><br>
+            </div>
+        </div>
+    </div>
+    <div id = 'copyrightDiv'>&copy 2021 Site development and design by Micaiah Cape. <u id = 'backToTop'>Back to top</u></div>
+</body>
+<script src = 'js/template.js'></script>
+<script src = 'js/listofquestions.js'></script>
+<script src = 'js/quiz.js'></script>
+</html>

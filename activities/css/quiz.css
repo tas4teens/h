@@ -1,0 +1,557 @@
+/*this CSS file is for the game only.*/
+
+html{
+    scroll-behavior: smooth;
+}
+
+#pregame{
+    margin-bottom: 3%;
+}
+
+#ingame{
+    padding-bottom: 5%;
+}
+
+#postgame{
+    margin-bottom: 10%;
+}
+
+body{
+    /*font-family: 'newsreader', serif;*/
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+    margin-top: 0;
+}
+
+#title{
+    font-size: 300%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.choiceSelection{
+    border: 2px solid green;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.choiceContent{
+    font-size: 135%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.choiceHolder{
+    float: left;
+    display: flex;
+    margin-top: 3%;
+}
+
+#subtitle{
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 135%;
+    margin-bottom: 3%;
+}
+
+.quizChoice{
+    color: white;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 220%;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border: 2px solid green;
+    margin-top: 1%;
+    -webkit-user-select: none;
+    transition: 0.3s;
+    background-position: 50% 80%;
+    background-size: cover;
+    backdrop-filter: brightness(-50%);
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    
+}
+
+.quizChoice:hover{
+    cursor: pointer;
+}
+
+#timeHolder{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    display: none;
+}
+
+#timeLimit{
+    font-weight: bold;
+    font-size: 160%;
+}
+
+.choiceHolder{/*must add to 25*/
+    margin-right: 3%;
+    width: 22%;
+}
+
+.choiceContent{
+    max-width: 75%;
+}
+
+.choiceSelection{
+    margin-right: 6%;
+}
+
+#getStarted{
+    margin-top: 10%;
+    margin-left: 40%;
+    margin-right: 40%;
+    color: white;
+    font-size: 165%;
+    background-color: green;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    opacity: 0.2;
+    margin-bottom: 3%;
+    display: none;
+    -webkit-user-select: none;
+}
+
+#getStarted:hover{
+    cursor: pointer;
+}
+
+
+.choiceHolder{
+    cursor: pointer;
+    -webkit-user-select: none;
+}
+
+#entireQuiz{
+    
+    display: flex;
+    display: none;
+    margin: 0;
+}
+
+#ingame{
+    
+    display: flex;
+    display: none;
+    margin: 0;
+}
+
+#postgame{
+    display: none;
+    margin: 0;
+}
+
+
+#leftArrow{
+    width: 14%;
+    margin-right: 5%;
+    color: black;
+    font-size: 750%;
+    text-align: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    position: relative;
+    text-align: center;
+    opacity: 0.4;
+}
+
+#leftArrow:hover{
+    background-color: #bccfc1;
+    cursor: pointer;
+}
+
+#childLeft{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+#rightArrow{
+    width: 14%;
+    margin-left: 5%;
+    color: black;
+    font-size: 750%;
+    text-align: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    position: relative;
+    text-align: center;
+}
+
+#childRight{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#rightArrow:hover{
+    background-color: #bccfc1;
+    cursor: pointer;
+}
+
+#quizContent{
+    width: 62%;
+}
+
+.question{
+    font-size: 175%;
+    padding-bottom: 4%;
+    border-bottom: 1px solid black;
+    margin-top: 0;
+    line-height: 1.2;
+    
+}
+
+.questionChoiceHolder{
+    display: flex;
+
+    -webkit-user-select: none;
+    margin-bottom: 0.5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding: 1.2%;
+}
+
+.questionChoiceEmpty{
+    height: 40px;
+    width: 40px;
+    border-radius:50%;
+    border: 4px solid blue;
+    margin-right: 5%;
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+.questionChoiceHolder:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.questionChoiceContent{
+
+    font-size: 150%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0;
+    max-width: 80%;
+}
+
+.questionChoiceContent:hover{
+    cursor: pointer;
+}
+
+#navigation{
+    border-bottom: 2px solid green;
+    margin-bottom: 5%;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#navigationMainText{
+    font-size: 160%;
+    padding-left: 10%;
+    font-weight: bold;
+    width: 70%;
+    margin-top:1.7%;
+    margin-bottom: 1.7%;
+}
+
+#subNavigation{
+    display: flex;
+    width: 30%;
+}
+
+.indivSubNavigation{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 140%;
+    margin-left: 10%;
+    text-decoration: underline;
+}
+
+.indivSubNavigation:hover{
+    cursor: pointer;
+    color: green;
+}
+
+#visualTimer{
+    width: 100%;
+    background-color: darkgreen;
+    height: 15px;
+    margin-bottom: 3%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.scoreBreakdownDetail{
+    display: flex;
+}
+
+.holder{
+    width: 50%;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+}
+
+.holder:hover{
+    opacity: 0.75;
+    cursor: pointer;
+}
+.first{
+    font-size: 175%;
+    text-align: center;
+    margin-bottom: 0.5%;
+    
+}
+
+.second{
+    text-align: center;
+    font-size: 275%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.third{
+    text-align: center;
+    font-size: 125%;
+    color: white;
+}
+
+#bigResult{
+    margin-top: 2.5%;
+    font-size: 250%;
+    text-align:center;
+    margin-bottom: 2%;
+}
+
+#scoreDisplay{
+    margin-top: 0%;
+    font-size: 200%;
+    text-align: center;
+}
+
+#numCorrect{
+    color: green;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#endLinksHolder{
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    justify-content: center;
+}
+
+.indivEndLink{
+    width: 40%;
+    background-color: cornflowerblue;
+    text-align: center;
+    color: white;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-size: 150%;
+    margin-left: 5%;
+    margin-right: 5%;
+    -webkit-user-select: none;
+}
+
+#scoreBreakdown{
+    font-size: 200%;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+@media only screen and (orientation: portrait){
+    body{
+        overflow-x: hidden;
+    }
+
+    #title{
+        font-size: 7vw;
+        margin-left: 5.5%;
+        margin-right: 7.5%;
+        border-bottom: 2px solid green;
+        padding-bottom: 3%;
+        padding-top: 5%;
+        font-weight: bold;
+    }
+
+    #subtitle{
+        font-size: 4.5vw;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        line-height: 1.4;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    .quizChoice{
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        font-size: 5.25vw;
+        padding-left: 3%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-top: 2%;
+        background-position: 50% 60%;
+        padding-left: 0;
+    }
+
+    #timeLimit{
+        text-align: center;
+        padding-bottom: 3%;
+        border-bottom: 2px solid green;
+        padding-top: 5%;
+    }
+
+    #timeHolder{
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+
+    .choiceHolder{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .choiceSelection{
+        margin-right: 4%;
+    }
+
+    .choiceContent{
+        font-size: 5.5vw;
+    }
+
+    #getStarted{
+        font-size: 6vw;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 90%;
+    }
+
+    #leftArrow{
+        width: 10%;
+        font-size: 300%;
+    }
+
+    #rightArrow{
+        width: 10%;
+        font-size: 300%;
+    }
+
+    #quizContent{
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #navigationMainText{
+        font-size: 5vw;
+        width: 100%;
+        margin-left: 5%;
+        padding-left: 0;
+    }
+
+    #subNavigation{
+        width: 40%;
+        flex-direction: column;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .indivSubNavigation{
+        width: 100%;
+        font-size: 4vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .question{
+        font-size: 5.5vw;
+        line-height: 1.5;
+    }
+
+    .questionChoiceHolder{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    .questionChoiceEmpty{
+        height: 33px;
+        width: 33px;
+        border: 3px solid blue;
+    }
+
+    .questionChoiceContent{
+        font-size: 5vw;
+    }
+
+    .scoreBreakdownDetail{
+        flex-direction: column;
+    }
+
+    .holder{
+        width: 100%;
+    }
+
+    .indivEndLink{
+        width: 100%;
+    }
+
+    #bigResult{
+        font-size: 7.5vw;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+        margin-top: 7%;
+    }
+
+    #scoreDisplay{
+        font-size: 6.5vw;
+        margin-top: 5%;
+        margin-bottom: 0;
+    }
+
+    #scoreBreakdown{
+        font-size: 7vw;
+    }
+
+    #endLinksHolder{
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    #scoreBreakdown{
+        font-size: 6.5vw;
+        margin-bottom: 4%;
+    }
+}
