@@ -10,6 +10,10 @@ body{
    font-family: 'Open Sans', sans-serif;
 }
 
+#definitions{
+   padding-top: 1%;
+}
+
 .container{
     display: flex;
     margin-top: 0;
