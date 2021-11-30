@@ -246,7 +246,7 @@ function drawFirstGraph(maxStat, increment, row, col, destination){
     }*/
 }
 
-/*var lengthOfPrevalence = ['1 day', '1 month', '1 year', 'Lifetime']
+var lengthOfPrevalence = ['1 day', '1 month', '1 year', 'Lifetime']
 
 function createDropDowns(){
     for (var i = 0; i < 3; i++){
@@ -359,14 +359,14 @@ function changePrevalenceGraph(){
     var temp = listofgrades.indexOf(g.innerHTML);
     var temp1 = listofprevalences.indexOf(document.getElementsByClassName('prevalenceOfUse')[0].innerHTML);
     drawFirstGraph(scale[temp][temp1][0], scale[temp][temp1][1], temp, temp1, 0);
-}*/
+}
 
 drawFirstGraph(65, 13, 0, 0, 0);
 drawNormalGraph(1200000, 300000, 3, listOfSUD, 6);
 drawNormalGraph(2500000, 500000, 2, listOfInitiation, 13);
 drawNormalGraph(4500000, 900000, 1, listOfUse, 6);
 
-/*createDropDowns();
+createDropDowns();
 
 document.getElementsByClassName('grade')[0].addEventListener('click', showDropDownGrade);
 document.getElementsByClassName('prevalenceOfUse')[0].addEventListener('click', showDropDownPrevalence);
@@ -376,4 +376,4 @@ for(var i = 0; i < 3; i++){
 
 for(var i = 0; i < 4; i++){
     document.getElementsByClassName('prevalenceOfUse')[i+1].addEventListener('click', changePrevalenceGraph);
-}*/
+}
