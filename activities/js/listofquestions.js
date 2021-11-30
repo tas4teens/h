@@ -24,5 +24,15 @@ var listOfQuestions =
 
 {question: 'How many adolesents struggled with alcohol use disorder in the past year?', choices: ['50,000', '128,000', '349,000', '414,000'], answer: '414,000', type: 'in order', category: [2, 3], explanation: 'C'},
 
-{question: 'Nitrous oxide is known as?', choices: ['Inhalant', 'Hallucinogen', 'Prescription drug', 'Stimulant'], answer: 'Inhalant', type: 'normal', category: [2, 3], explanation: 'C'}
+{question: 'Nitrous oxide is known as?', choices: ['Inhalant', 'Hallucinogen', 'Prescription drug', 'Stimulant'], answer: 'Inhalant', type: 'normal', category: [2, 3], explanation: 'C'},
+
+{question: 'What is the most widely used illicit drug amongst adolescents?', choices: ['Nitrous oxide', 'Marijuana', 'Cocaine', 'Heroin'], answer: 'Marijuana', type: 'normal', category: [1, 2], explanation: 'C'},
+
+{question: 'What percentage of high school seniors have used alcohol once in their life?', choices: ['10%', '27%', '44%', '61%'], answer: '61%', type: 'in order', category: [1, 2], explanation: 'C'},
+
+{question: 'Is there a difference between substance use and substance use disorders?', choices: ['No, the terms are used interchangeably.', 'No, all people who have used a substance can be classified as having a substance use disorder.', 'Yes, substance use disorders can be caused by substance use, and it is a behavioral problem.', 'Yes, substance use disorders can be caused by substance use, and has physical signs and symptoms.'], answer: 'Yes, substance use disorders can be caused by substance use, and it is a behavioral problem.', type: 'in order', category: [1, 2, 3], explanation: 'There is a difference between substance use and substance use disorders. Substance use disorders is the uncontrollable use of a particular substance, and it is a behavioral problem. Substance use, as its name implies, is when an individual uses a substance. The danger of substance use is that it could lead to substance use disorders.'},
+
+{question: 'About ____ of marijuana users in high school get D\'s and F\'s.', choices: ['Half', 'a third', 'a quarter', 'three-quarters'], answer: 'Half', type: 'normal', category: [2, 3], explanation: 'To be exact, 48% of marijuana users in high school get D\'s and F\'s. This is opposed to 10% of marijuana users who get A\'s.',},
+
+{question: 'What is the leading cause of preventable death in the United States?', choices: ['Alcohol use', 'Heart attacks', 'Smoking', 'Methamphetamine'], answer: 'Smoking', type: 'normal', category: [1, 2, 3]},
 ];

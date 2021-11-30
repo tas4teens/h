@@ -3,7 +3,7 @@ var timelimit = -1;
 var dummy = [];
 var questionNumber = 0;
 var randomChoice = [1, 2, 3, 4];
-var listOfGameModes = ['Easy', 'Medium', 'Difficult', 'All difficulties'];
+var listOfGameModes = ['Easy', 'Medium', 'Difficult'];
 var detect;
 var userResults = [-1, -1, -1, -1, -1];
 var userTimes = [];
