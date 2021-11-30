@@ -16,9 +16,13 @@ This .js file is used simply for storage of questions. Feel free to edit any of 
 */
 
 var listOfQuestions = 
-[{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Cortisol', type: 'in order', category: [2], explanation: 'C'},
-{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Cortisol', type: 'in order', category: [2], explanation: 'C'},
-{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Cortisol', type: 'in order', category: [2], explanation: 'C'},
-{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Cortisol', type: 'in order', category: [2], explanation: 'C'},
-{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Cortisol', type: 'in order', category: [2], explanation: 'C'}
+[{question: 'The dysphoric state of SUD is fueled by stress-related hormones such as?', choices: ['Corticotropin releasing factor (CRF)', 'Cortisol', 'Dopamine', 'Adrenaline'], answer: 'Corticotropin releasing factor (CRF)', type: 'normal', category: [2], explanation: 'C'},
+
+{question: 'What is the active ingredient in marijuana?', choices: ['THC', 'Cannabis', 'Nicotine', 'Carcinogens'], answer: 'THC', type: 'normal', category: [1, 2], explanation: 'C'},
+
+{question: 'What is the 1st stage of substance use disorders?', choices: ['Intoxication', 'Anticipation', 'Withdrawal', 'Craving'], answer: 'Intoxication', type: 'normal', category: [2], explanation: 'C'},
+
+{question: 'How many adolesents struggled with alcohol use disorder in the past year?', choices: ['50,000', '128,000', '349,000', '414,000'], answer: '414,000', type: 'in order', category: [2, 3], explanation: 'C'},
+
+{question: 'Nitrous oxide is known as?', choices: ['Inhalant', 'Hallucinogen', 'Prescription drug', 'Stimulant'], answer: 'Inhalant', type: 'normal', category: [2, 3], explanation: 'C'}
 ];
