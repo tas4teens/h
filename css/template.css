@@ -53,11 +53,10 @@ body{
     text-align: center;
     
     font-weight: bold;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+  
     font-size: 1.5vw;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
     width: 96%;
 }
 
@@ -281,15 +280,15 @@ a{
     }
 
     #emergencyMobile{
-        margin-left: 3vw;
-        width: 91%;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-left: 5vw;
+        width: 87%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     #closeMobile{
-        margin-top: 1%;
-        margin-bottom: 1%;
+        margin-top: auto;
+        margin-bottom: auto;
     }
 
 

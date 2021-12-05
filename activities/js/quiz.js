@@ -94,10 +94,6 @@ function launch(){
             }
         }
     }
-    
-    //console.log(dummy);
-
-    //start quiz
     document.getElementById('navigationMainText').innerHTML = 'Quiz in progress: ' + listOfGameModes[gamemode-1] + " difficulty";
     createElements();
 }

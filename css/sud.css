@@ -426,4 +426,14 @@ li{
         border-bottom-right-radius: 30px;
         margin-left: 5%;
     }
+
+    .example{
+        font-size: 4.5vw;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    li{
+        font-size: 4vw;
+    }
 }

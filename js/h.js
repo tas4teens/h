@@ -35,7 +35,7 @@ function showMenu(){
     
 }
 
-var featuredPagesObject = [{title: "Substance use in adolescents - What every adolescent should know", description: "Learn all about substance use and how it can lead to substance use disorders (SUD), with examples of each. Sections include: The definition of substance use, causes of substance use, the cycle of SUD, why substance use is so harmful, and so on.", readingTime: 10, web: 'sud.html'}, {title: "Alcohol use and its dangerss", description: "About alcohol, the most used substance.", readingTime: 6, web: '/substances/alcohol.html'}, {title: "About nitrous oxide", description: "Read all about nitrous oxide, which is one of the most used party drugs.", readingTime: 6, web: '/substances/nitrousoxide.html'}];
+var featuredPagesObject = [{title: "Substance use in adolescents - What every adolescent should know", description: "Learn all about substance use and how it can lead to substance use disorders (SUD), with examples of each. Sections include: The definition of substance use, causes of substance use, the cycle of SUD, why substance use is so harmful, and so on.", readingTime: 10, web: 'sud.html'}, {title: "Alcohol use and its dangers", description: "About alcohol, the most used substance.", readingTime: 6, web: '/substances/alcohol.html'}, {title: "About nitrous oxide", description: "Read all about nitrous oxide, which is one of the most used party drugs.", readingTime: 6, web: '/substances/nitrousoxide.html'}];
 
 for(var i = 0; i < featuredPagesObject.length; i++){
     var f = document.createElement('div');
