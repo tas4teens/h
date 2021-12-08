@@ -364,7 +364,7 @@ function changePrevalenceGraph(){
 drawFirstGraph(65, 13, 0, 0, 0);
 drawNormalGraph(1200000, 300000, 3, listOfSUD, 6);
 drawNormalGraph(2500000, 500000, 2, listOfInitiation, 13);
-drawNormalGraph(4500000, 900000, 1, listOfUse, 6);
+drawNormalGraph(4500000, 900000, 1, listOfUse, 13);
 
 createDropDowns();
 

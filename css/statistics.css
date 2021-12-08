@@ -8,6 +8,7 @@
 
 body{
    font-family: 'Open Sans', sans-serif;
+  
 }
 
 #definitions{
@@ -276,4 +277,136 @@ hr{
    margin-top: auto;
    margin-bottom: auto;
    border-radius: 50%;
+}
+
+@media only screen and (orientation: portrait){
+
+   body{
+      overflow-x: auto;
+   }
+   #onThisPage{
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+
+   #onThisPageText{
+      font-size: 6vw;
+      text-align: center;
+   }
+
+   .navigationLink{
+      margin-bottom: 5%;
+      margin-top: 5%;
+      font-size: 4.5vw;
+      margin-left: 5%;
+      margin-right: 5%;
+   }
+
+   .graph{
+      width: 200%;
+      overflow-y: hidden;
+      background-color: whitesmoke;
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+
+   .graphTitle{
+      font-size: 6vw;
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+      padding-left: 4%;
+      width: 85%;
+   }
+
+   .graphSubTitle{
+      font-size: 4.75vw;
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+      line-height: 1.6;
+   }
+
+   .textHolder{
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+   }
+
+   .bullet{
+      width: 10px;
+      height: 10px;
+      margin-left: 3%;
+      margin-right: 5%;
+      border: 2px solid green;
+   }
+
+   .bulletText{
+      max-width: 85%;
+      font-size: 5vw;
+      margin-right: 0;
+      
+   }
+
+   .graphText{
+      font-size: 3.5vw;
+   }
+
+   .graphBars{
+      font-size: 3.75vw;
+      padding-top: 1%;
+      padding-bottom: 1%;
+   }
+
+   .outsideText{
+      font-size: 3.75vw;
+      padding-top: 1%;
+      padding-bottom: 1%;
+   }
+
+   .percentDiv{
+      font-size: 3.75vw;
+   }
+
+   #graph1Selection{
+      flex-direction: column;
+   }
+
+   #graph1Left{
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+      width: 85%;
+      font-size: 4vw;
+   }
+
+   #graph1Right{
+      margin-left: 7.5%;
+      margin-right: 7.5%;
+      width: 85%;
+      font-size: 4vw;
+   }
+
+   .grade{
+      font-size: 4.5vw;
+   }
+
+   .prevalenceOfUse{
+      font-size: 4.5vw;
+   }
+
+   #gradeSelection, #prevalenceSelection{
+      margin-top: 4%;
+      margin-bottom: 4%;
+   }
+
+   #selectPrevalence, #selectGrade{
+      font-size: 4.75vw;
+      padding-top: 1%;
+      padding-bottom: 1%;
+      margin-bottom: 4%;
+      margin-top: 4%;
+   }
+
+   .line{
+      height: 6px;
+      margin-top: 10%;
+      margin-bottom: 12.5%;
+   }
 }

@@ -122,6 +122,18 @@ ul{
     border-radius: 50%;
 }
 
+.referenceText{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    
+    word-wrap: break-word;
+    color: green;
+}
+
+.referenceLink{
+    color: green;
+}
 .linkHolder{
     display: flex;
     margin-left: 15%;
