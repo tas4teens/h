@@ -28,17 +28,17 @@ var entireWebsite = [
     //STATISTICS
     ////////////////////
 
-    {title: 'The statistics on substance use and SUD, among adolescents', link: 'statistics.html', description: 'Explore statistics on usage, misuse, initiation, and effects about different kinds of substances. Visuals and charts are included.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'methamphetamine', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'started', 'start', 'stats', 'initiate', 'initiation', 'opioid', 'opioids']},
+    {title: 'The statistics on substance use and SUD, among adolescents', link: 'statistics.html', description: 'Explore statistics on usage, misuse, initiation, and effects about different kinds of substances. Visuals and charts are included.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'methamphetamine', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'started', 'start', 'stats', 'initiate', 'initiation', 'opioid', 'opioids'], important: []},
 
     //SUBPAGES of statistics
 
-    {title: 'Prevalence of use of selected substances amongst 8th, 10th, and 12th graders', link: 'statistics.html#statistics', description: 'Explore prevalence of use within lifetime, past year, past week, and daily of certain substances, amongst 8th, 10th, and 12th graders.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'stats', 'opioid', 'opioids', 'monitoring', 'the', 'future']},
+    {title: 'Prevalence of use of selected substances amongst 8th, 10th, and 12th graders', link: 'statistics.html#statistics', description: 'Explore prevalence of use within lifetime, past year, past week, and daily of certain substances, amongst 8th, 10th, and 12th graders.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'stats', 'opioid', 'opioids', 'monitoring', 'the', 'future'], important: []},
 
-    {title: 'Past-year use of selected substances amongst adolescents', link: 'statistics.html#usage', description: 'From the SAHMSA 2019 NSDUH. Explore past-year use of substances in people ages 12-17.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'painkiller', 'painkillers', 'lifetime', 'every', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH']},
+    {title: 'Past-year use of selected substances amongst adolescents', link: 'statistics.html#usage', description: 'From the SAHMSA 2019 NSDUH. Explore past-year use of substances in people ages 12-17.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'painkiller', 'painkillers', 'lifetime', 'every', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH'], important: []},
 
-    {title: 'Number of adolescents who started to use selected substances', link: 'statistics.html#initiation', description: 'Also from the SAHMSA 2019 NSDUH. Explore the number of adolescents who started to use different substances in the past year.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every', 'started', 'initiation','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH']},
+    {title: 'Number of adolescents who started to use selected substances', link: 'statistics.html#initiation', description: 'Also from the SAHMSA 2019 NSDUH. Explore the number of adolescents who started to use different substances in the past year.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every', 'started', 'initiation','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH'], important: []},
 
-    {title: 'Number of adolescents who are struggling with past-year SUD', link: 'statistics.html#sud', description: 'Explore the number of adolescents who are struggling with past-year substance use disorder of selected substances.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH', 'disorder'], /*important: ['stats', 'statistics', 'adolescent', 'teen', 'teens', 'adolescents', 'adolescents', 'statistic']*/},
+    {title: 'Number of adolescents who are struggling with past-year SUD', link: 'statistics.html#sud', description: 'Explore the number of adolescents who are struggling with past-year substance use disorder of selected substances.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH', 'disorder'], important: []},
 
 
     ////////////////////
@@ -62,10 +62,10 @@ var entireWebsite = [
     //NITROUS OXIDE
     ///////////////////////////
 
-    {title: 'Nitrous Oxide - a fairly common substance', link: '/substances/nitrousoxide.html', description: 'FULL ARTICLE || Explore what nitrous oxide is, how its inhaled, its side effects, DSM-5 diagnosis, and usage statistics.', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'cartilage', 'canister', 'dental', 'substance', 'use', 'adolescent', 'other', 'dsm5', 'dsm', '5', 'dsm-5', 'diagnosis', 'diagnose', 'side', 'effect', 'stats', 'statistics', 'statistic', 'usage', 'balloon', 'party', 'baking', 'disorder', 'whipped', 'cream', 'whippets'], important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']},
+    {title: 'Nitrous Oxide - a fairly common substance', link: '/substances/nitrousoxide.html', description: 'FULL ARTICLE || Explore what nitrous oxide is, how its inhaled, its side effects, DSM-5 diagnosis, and usage statistics.', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'cartilage', 'canister', 'dent', 'substance', 'use', 'adolescent', 'side', 'effect', 'effects', 'stats', 'statistics', 'statistic', 'usage', 'balloon', 'party', 'bak', 'disorder', 'whipp', 'cream'], important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']},
 
     //SUBPAGES of nitrous oxide
-    {title: 'What is nitrous oxide?', link: '/substances/nitrousoxide.html#introduction', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'cartilage', 'canister', 'dental', 'usage', 'balloon', 'party', 'dental', 'legal'], description: 'Located under: Nitrous Oxide - a fairly common substance → What is nitrous oxide?', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']},
+    {title: 'What is nitrous oxide?', link: '/substances/nitrousoxide.html#introduction', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'cartilage', 'canister', 'dental', 'usage', 'balloon', 'party', 'legal'], description: 'Located under: Nitrous Oxide - a fairly common substance → What is nitrous oxide?', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']},
 
     {title: 'DSM-5 diagnosis of nitrous oxide use disorder?', link: '/substances/nitrousoxide.html#dsm5diagnosis', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'substance', 'use', 'usage', 'dsm5', 'dsm', '5', 'dsm-5', 'diagnosis', 'other', 'sud', 'disorder', 'mild', 'moderate','medium', 'heavy', 'severe'], description: 'Located under: Nitrous Oxide - a fairly common substance → DSM-5 Diagnosis', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
 
@@ -86,6 +86,7 @@ var subScore;
 var subScoreArray = [];
 var arrayPos;
 var temp;
+var count;
 
 function search(){
 
@@ -103,20 +104,26 @@ function search(){
     }
 
     score = 0;
-
+    count = -1;
     //rearrangement by order of importance
     for (var i = 0; i < entireWebsite.length; i++){
         for (var j = 0; j < splitArray.length; j++){
-
+            if (entireWebsite[i].keywords.includes(splitArray[j]) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 1)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 2)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 3)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 4))){//root word checker
+                count++;
+                temp = entireWebsite[count];
+                entireWebsite[count] = entireWebsite[i];
+                entireWebsite[i] = temp;
+            }
         }
     }
+    console.log(entireWebsite);
     for (var i = 0; i < entireWebsite.length; i++){
         score = 0;
         scoreArrayKeywords = [];
         subScore = 0;
 
         for (var j = 0; j < splitArray.length; j++){
-            if(entireWebsite[i].keywords.includes(splitArray[j]) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray.length - 1)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray.length - 2)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray.length - 3)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray.length - 4))){//root word checker
+            if(entireWebsite[i].keywords.includes(splitArray[j]) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 1)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 2)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 3)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 4))){//root word checker
                 score++;
                 scoreArrayKeywords.push(splitArray[j]);
             }
