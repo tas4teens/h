@@ -32,14 +32,29 @@ var entireWebsite = [
 
     //SUBPAGES of statistics
 
-    {title: 'Prevalence of use of selected substances amongst 8th, 10th, and 12th graders', link: 'statistics.html#statistics', description: 'Explore prevalence of use within lifetime, past year, past week, and daily of certain substances, amongst 8th, 10th, and 12th graders.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'stats', 'opioid', 'opioids', 'monitoring', 'the', 'future'], important: []},
+    {title: 'Prevalence of use of selected substances amongst 8th, 10th, and 12th graders', link: 'statistics.html#statistics', description: 'Explore prevalence of use within lifetime, past year, past week, and daily of certain substances, amongst 8th, 10th, and 12th graders.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'vape', 'vapes', 'vaping', 'nicotine', 'flavor', 'flavoring', 'JUUL', 'cocaine', 'speed', 'crack', 'ice', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'lifetime', 'day', 'daily', 'every', 'stats', 'opioid', 'opioids', 'monitoring', 'the', 'future'], important: []},
 
-    {title: 'Past-year use of selected substances amongst adolescents', link: 'statistics.html#usage', description: 'From the SAHMSA 2019 NSDUH. Explore past-year use of substances in people ages 12-17.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'disorder', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'painkiller', 'painkillers', 'lifetime', 'every', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH'], important: []},
+    {title: 'Past-year use of selected substances amongst adolescents', link: 'statistics.html#usage', description: 'From the SAHMSA 2019 NSDUH. Explore past-year use of substances in people ages 12-17.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'illicit', 'drug', 'drugs', '2020', 'high', 'school', 'eighth', '8th', '10th', '12th', 'sophomore', 'senior', 'sophomores', 'seniors', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'smoking', 'percent', 'percentage','cigarette', 'cigarettes', 'smoke', 'past', 'year', 'week', 'painkiller', 'painkillers', 'lifetime', 'every', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH'], important: []},
 
     {title: 'Number of adolescents who started to use selected substances', link: 'statistics.html#initiation', description: 'Also from the SAHMSA 2019 NSDUH. Explore the number of adolescents who started to use different substances in the past year.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every', 'started', 'initiation','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH'], important: []},
 
-    {title: 'Number of adolescents who are struggling with past-year SUD', link: 'statistics.html#sud', description: 'Explore the number of adolescents who are struggling with past-year substance use disorder of selected substances.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH', 'disorder'], important: []},
+    {title: 'Number of adolescents who are struggling with past-year SUD', link: 'statistics.html#sud', description: 'Explore the number of adolescents who are struggling with past-year substance use disorder of selected substances.', keywords: ['statistic', 'statistics', 'adolescent', 'kid', 'teen', 'adolescents', 'kids', 'teens', 'adolescence', 'puberty', 'prevalence', 'use', 'substance', 'substances', 'cannabis', 'marijuana', 'weed', '420', 'alcohol', 'aud', 'inhalant', 'inhalants', 'percent', 'percentage', 'cigarette', 'cigarettes', 'smoke', 'past', 'prescription', 'painkiller', 'painkillers', 'stimulant', 'stimulants', 'sedative', 'sedatives', 'every','initiate', 'initiated', 'start', 'year', 'past', 'past-year', 'sahmsa', '2019', 'nsduh', 'SAHMSA', 'NSDUH', 'disorder', 'sud'], important: []},
 
+    ////////////////////
+    //SUD
+    ////////////////////
+
+    {title: 'Substance use in adolescents - what every adolescent should know', link: 'sud.html', description: 'FULL ARTICLE || Highly recommended. Goes into detail about the definitions of substance use and substance use disorder (SUD), how substance use leads to SUD, how SUD works, risk factors and causes of substance use and SUD, and official diagnosis of SUD using the DSM-5.', keywords: ['substance', 'use', 'disorder', 'sud', 'mean', 'define', 'definition', 'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'harm', 'hurt', 'effect', 'danger', 'drug', 'start', 'initiat', 'beg', 'dsm', '5'], important: ['sud', 'adolescen', 'substance', 'drug']},
+
+    //SUBPAGES for SUD
+
+    {title: 'What is substance use and substance use disorder?', link: 'sud.html#sud', description: 'Highly recommended. This page explains what substance use and substance use disorder (SUD) is, provides hypothetical scenarios, explains the cycle of SUDs,and also shows how SUD can be caused by substance use.', keywords: ['substance', 'use', 'disorder', 'mean', 'define', 'definition', 'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'student', 'example', 'scenario', 'hypothetical', 'stage', '3', 'three', 'nejm', 'new', 'england', 'intoxicat', 'withdraw', 'crash', 'dopamine', 'anticipat', 'negative', 'effect', 'lead', 'cause', 'dysphor', 'euphor', 'inject', 'take', 'whiff', 'sniff', 'smell', 'corticotropin-releasing', 'factor', 'corticotropin', 'releasing', 'hormone', 'crh', 'crf'], important: ['sud', 'substance']},
+
+    {title: 'Why is substance use so harmful?', link: 'sud.html#why', description: 'Highly recommended. Substance use is harmful because 1) the danger of the substance itself and 2) because of the destructive endless cycle the users are trapped in. Find out more on this page.', keywords: ['substance', 'use', 'disorder', 'sud', 'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'student', 'example', 'intoxicat', 'withdraw', 'crash', 'dopamine', 'anticipat', 'harm', 'hurt', 'effect', 'danger', 'drug', 'pavlov', 'conditioning', 'classical', 'crav', 'euphori', 'dysphori', 'marijuana', 'cannabis', 'weed', '420', 'IQ', 'vap', 'carcinogen', 'nicotine', 'alcohol', 'smok', 'mdma', 'ecstasy', 'molly'], important: []},
+
+    {title: 'How does one start substance use?', link: 'sud.html#how', description: 'Highly recommended. This page explains in detail how one may start using a substance.', keywords: ['substance', 'use',  'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'student', 'example', 'curious', 'curiosity', 'environment', 'stress', 'bore', 'boring', 'peer', 'pressure', 'school', 'temptation', 'tempt', 'role', 'model', 'depress', 'cure', 'cool', 'up', 'initiat', 'start', 'beg', 'fall', 'friend', 'classmate'], important: ['peer', 'pressure', 'curiosity', 'initiat', 'start']},
+
+    {title: 'Diagnosis of substance use disorder (SUD)', link: 'sud.html#dsm5', description: 'Highly recommended. This page explains in detail how one may start using a substance.', keywords: ['substance', 'use', 'disorder', 'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'student', 'dsm', '5', 'dsm-5', 'diagnos', 'sud', 'criteri', 'statistical', 'manual', 'mental', 'toleran', 'withdraw', 'uncontrollab', 'unsuccessful', 'effort', 'recurr', 'obtain', 'recover'], important: ['dsm', '5', 'dsm-5', 'diagnosis']},
 
     ////////////////////
     //ALCOHOL
@@ -67,11 +82,11 @@ var entireWebsite = [
     //SUBPAGES of nitrous oxide
     {title: 'What is nitrous oxide?', link: '/substances/nitrousoxide.html#introduction', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'cartilage', 'canister', 'dental', 'usage', 'balloon', 'party', 'legal'], description: 'Located under: Nitrous Oxide - a fairly common substance → What is nitrous oxide?', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']},
 
-    {title: 'DSM-5 diagnosis of nitrous oxide use disorder?', link: '/substances/nitrousoxide.html#dsm5diagnosis', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'substance', 'use', 'usage', 'dsm5', 'dsm', '5', 'dsm-5', 'diagnosis', 'other', 'sud', 'disorder', 'mild', 'moderate','medium', 'heavy', 'severe'], description: 'Located under: Nitrous Oxide - a fairly common substance → DSM-5 Diagnosis', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
+    {title: 'DSM-5 diagnosis of nitrous oxide use disorder?', link: '/substances/nitrousoxide.html#dsm5diagnosis', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'use', 'usage', 'dsm5', 'dsm', '5', 'dsm-5', 'diagnosis', 'other', 'disorder', 'mild', 'moderate','medium', 'heavy', 'severe'], description: 'Located under: Nitrous Oxide - a fairly common substance → DSM-5 Diagnosis', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
 
-    {title: 'Nitrous oxide effects', link: '/substances/nitrousoxide.html#effects', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'substance', 'diffusion', 'hypoxia', 'vitamin', 'b12', 'induce', 'deficien', 'pernicious', 'anemia', 'arrythmia', 'heart', 'cardio', 'methionine', 'synthesis', 'synthase', 'myelin', 'sheath', 'nerve', 'neuron', 'phospholipid', 'cyanocobalamin', 'injection', 'red', 'blood', 'cell', 'deficiency', 'effect', 'effects', 'side', 'long','short', 'term'], description: 'Located under: Nitrous Oxide - a fairly common substance → Effects || Description: Nitrous oxide has a lot of effects on your body, contributing to a lot of nerve problems. Read more here.', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
+    {title: 'Nitrous oxide effects', link: '/substances/nitrousoxide.html#effects', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'diffusion', 'hypoxia', 'vitamin', 'b12', 'induce', 'deficien', 'pernicious', 'anemia', 'arrythmia', 'heart', 'cardio', 'methionine', 'synthesis', 'synthase', 'myelin', 'sheath', 'nerve', 'neuron', 'phospholipid', 'cyanocobalamin', 'injection', 'red', 'blood', 'cell', 'deficiency', 'effect', 'effects', 'side', 'long','short', 'term'], description: 'Located under: Nitrous Oxide - a fairly common substance → Effects || Description: Nitrous oxide has a lot of effects on your body, contributing to a lot of nerve problems. Read more here.', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
 
-    {title: 'Nitrouse oxide statistics', link: '/substances/nitrousoxide.html#statistics', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'adolescent', 'uk', 'united', 'kingdom', 'stats', 'statistic', 'england', 'global', 'drug', 'survey', '2013', '2019', 'marijuana', 'club', 'rave', 'party', 'prevale', 'high', 'school', 'senior', 'use', 'statistics'], description: 'Located under: Nitrous Oxide - a fairly common substance → Statistics', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
+    {title: 'Nitrous oxide statistics', link: '/substances/nitrousoxide.html#statistics', keywords: ['nitrous', 'oxide', 'n2o', 'nitric', 'adolescent', 'uk', 'united', 'kingdom', 'stats', 'statistic', 'england', 'global', 'drug', 'survey', '2013', '2019', 'marijuana', 'club', 'rave', 'party', 'prevale', 'high', 'school', 'senior', 'use', 'statistics'], description: 'Located under: Nitrous Oxide - a fairly common substance → Statistics', important: ['nitrous', 'oxide', 'n2o', 'balloon', 'balloons', 'nitric']}, 
 
     ///////////////////////////    
     //CANNABIS
@@ -86,6 +101,7 @@ var subScore;
 var subScoreArray = [];
 var arrayPos;
 var temp;
+var beforeManipulation;
 var count;
 
 function search(){
@@ -106,9 +122,10 @@ function search(){
     score = 0;
     count = -1;
     //rearrangement by order of importance
+    beforeManipulation = entireWebsite;
     for (var i = 0; i < entireWebsite.length; i++){
         for (var j = 0; j < splitArray.length; j++){
-            if (entireWebsite[i].keywords.includes(splitArray[j]) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 1)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 2)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 3)) || entireWebsite[i].keywords.includes(splitArray[j].substring(0, splitArray[j].length - 4))){//root word checker
+            if (entireWebsite[i].important.includes(splitArray[j]) || entireWebsite[i].important.includes(splitArray[j].substring(0, splitArray[j].length - 1)) || entireWebsite[i].important.includes(splitArray[j].substring(0, splitArray[j].length - 2)) || entireWebsite[i].important.includes(splitArray[j].substring(0, splitArray[j].length - 3)) || entireWebsite[i].important.includes(splitArray[j].substring(0, splitArray[j].length - 4))){//root word checker
                 count++;
                 temp = entireWebsite[count];
                 entireWebsite[count] = entireWebsite[i];
@@ -117,6 +134,8 @@ function search(){
         }
     }
     console.log(entireWebsite);
+
+    //keyword sort
     for (var i = 0; i < entireWebsite.length; i++){
         score = 0;
         scoreArrayKeywords = [];
@@ -202,7 +221,7 @@ function search(){
             }
         }
     }
-
+    
     document.getElementById('innerSearchResult1').innerHTML = tCounter + 1;
     document.getElementById('innerSearchResult2').innerHTML = document.getElementById('searchBox').value;
 }
