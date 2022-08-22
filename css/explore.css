@@ -63,6 +63,10 @@
     color: black;
 }
 
+.referenceText{
+    margin-left: 15%;
+}
+
 #recommendedLink{
     display: inline-block;
     font-size: 175%;
@@ -123,10 +127,10 @@ ul{
 }
 
 .referenceText{
-    margin-left: 10%;
-    margin-right: 10%;
-    width: 80%;
-    
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 125%;
     word-wrap: break-word;
     color: green;
 }
@@ -294,6 +298,11 @@ ul{
 
 #searchResultsHolder{
     display: none;
+}
+
+#references{
+    font-size: 135%;
+    margin-left: 15%;
 }
 
 @media only screen and (orientation: portrait){

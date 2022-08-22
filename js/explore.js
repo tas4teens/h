@@ -44,7 +44,7 @@ var entireWebsite = [
     //SUD
     ////////////////////
 
-    {title: 'Substance use in adolescents - what every adolescent should know', link: 'sud.html', description: 'FULL ARTICLE || Highly recommended. Goes into detail about the definitions of substance use and substance use disorder (SUD), how substance use leads to SUD, how SUD works, risk factors and causes of substance use and SUD, and official diagnosis of SUD using the DSM-5.', keywords: ['substance', 'use', 'disorder', 'sud', 'mean', 'define', 'definition', 'kid', 'teen', 'adolescen', 'puberty', 'high', 'cycle', 'addict', 'harm', 'hurt', 'effect', 'danger', 'drug', 'start', 'initiat', 'beg', 'dsm', '5'], important: ['sud', 'adolescen', 'substance', 'drug']},
+    
 
     //SUBPAGES for SUD
 
