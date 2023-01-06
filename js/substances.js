@@ -1,10 +1,10 @@
 var allSubstances = [
 
-    {title: 'Alcohol', description: 'According to the SAHMSA 2019 annual report, a whopping 139.7 million people ages 12 and older used alcohol in the United States in the past month. Find out more about the effects of alcohol on the body.', image: 'https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', link: '/substances/alcohol.html'},
+    {title: 'Alcohol', description: 'According to the SAHMSA 2019 annual report, a whopping 139.7 million people ages 12 and older used alcohol in the United States in the past month. Find out more about the effects of alcohol on the body.', image: 'https://images.pexels.com/photos/667986/pexels-photo-667986.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', link: '/h/substances/alcohol.html'},
     
-    {title: 'Nitrous oxide', description: 'Nitrous oxide is often used in the dispensing of whipped cream during baking. However, it is a prevalent drug used at clubs and parties.', image: 'https://media.istockphoto.com/photos/gas-cylinders-picture-id508813979?b=1&k=20&m=508813979&s=170667a&w=0&h=31tFWBrfUfLp4aGcCGnYbP60tTs55tRi5eRXgypvasE=', link: '/substances/nitrousoxide.html'},
+    {title: 'Nitrous oxide', description: 'Nitrous oxide is often used in the dispensing of whipped cream during baking. However, it is a prevalent drug used at clubs and parties.', image: 'https://media.istockphoto.com/photos/gas-cylinders-picture-id508813979?b=1&k=20&m=508813979&s=170667a&w=0&h=31tFWBrfUfLp4aGcCGnYbP60tTs55tRi5eRXgypvasE=', link: '/h/substances/nitrousoxide.html'},
     
-    {title: 'Marijuana', description: 'Read all about marijuana, one of the most popular substances used amongst adolescents.', image: 'https://images.pexels.com/photos/606506/pexels-photo-606506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', link: '/substances/404.html'},
+    {title: 'Marijuana', description: 'Read all about marijuana, one of the most popular substances used amongst adolescents.', image: 'https://images.pexels.com/photos/606506/pexels-photo-606506.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940', link: '/h/substances/404.html'},
     
     
     
